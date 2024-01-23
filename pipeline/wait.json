@@ -1,0 +1,7 @@
+{
+	"name": "wait",
+	"properties": {
+		"description": "This is the first pipeline for wait",
+		"annotations": []
+	}
+}
