@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "MyfirstAzureDataFactoy"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
