@@ -2,6 +2,17 @@
 	"name": "wait",
 	"properties": {
 		"description": "This is the first pipeline for wait",
+		"activities": [
+			{
+				"name": "Waitfor5seconds",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 5
+				}
+			}
+		],
 		"annotations": []
 	}
 }
