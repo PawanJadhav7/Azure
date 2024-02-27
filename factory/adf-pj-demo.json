@@ -1,0 +1,9 @@
+{
+	"name": "adf-pj-demo",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b372a849-c4c2-45ff-9864-5635387fa39d",
+		"tenantId": "560cc656-175a-4c54-938b-7aa3d1579924"
+	}
+}
