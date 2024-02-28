@@ -1,0 +1,7 @@
+{
+	"name": "Blob To SQL",
+	"properties": {
+		"description": "This is the pipeline to transfer the csv data to SQL database",
+		"annotations": []
+	}
+}
