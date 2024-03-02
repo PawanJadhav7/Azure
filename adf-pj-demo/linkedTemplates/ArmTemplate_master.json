@@ -7,9 +7,13 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adf-pj-demo"
 		},
-		"AzureBlobStorage1_connectionString": {
+		"InputBlob_connectionString": {
 			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage1'"
+			"metadata": "Secure string for 'connectionString' of 'InputBlob'"
+		},
+		"Output Database_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'Output Database'"
 		},
 		"OutputSql_connectionString": {
 			"type": "secureString",
@@ -46,8 +50,11 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"AzureBlobStorage1_connectionString": {
-						"value": "[parameters('AzureBlobStorage1_connectionString')]"
+					"InputBlob_connectionString": {
+						"value": "[parameters('InputBlob_connectionString')]"
+					},
+					"Output Database_connectionString": {
+						"value": "[parameters('Output Database_connectionString')]"
 					},
 					"OutputSql_connectionString": {
 						"value": "[parameters('OutputSql_connectionString')]"

@@ -5,7 +5,10 @@
 		"factoryName": {
 			"value": "adf-pj-demo"
 		},
-		"AzureBlobStorage1_connectionString": {
+		"InputBlob_connectionString": {
+			"value": ""
+		},
+		"Output Database_connectionString": {
 			"value": ""
 		},
 		"OutputSql_connectionString": {
