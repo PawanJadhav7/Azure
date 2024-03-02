@@ -120,18 +120,34 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Carscsv",
-						"type": "DatasetReference"
+						"referenceName": "InputCSV",
+						"type": "DatasetReference",
+						"parameters": {
+							"fileName": "planes.csv"
+						}
 					}
 				],
 				"outputs": [
 					{
 						"referenceName": "CarsTable",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"tableName": "planes"
+						}
 					}
 				]
 			}
 		],
+		"parameters": {
+			"carstable": {
+				"type": "String"
+			}
+		},
+		"variables": {
+			"Temp1": {
+				"type": "Array"
+			}
+		},
 		"annotations": []
 	}
 }

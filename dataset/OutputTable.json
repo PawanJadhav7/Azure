@@ -1,8 +1,8 @@
 {
-	"name": "CarsTable",
+	"name": "OutputTable",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "OutputSql",
+			"referenceName": "Output Database",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
