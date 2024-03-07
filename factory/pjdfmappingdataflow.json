@@ -1,0 +1,9 @@
+{
+	"name": "pjdfmappingdataflow",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dacf2da7-8e21-4298-971a-c12a0e902fa7",
+		"tenantId": "560cc656-175a-4c54-938b-7aa3d1579924"
+	}
+}
