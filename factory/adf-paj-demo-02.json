@@ -1,0 +1,9 @@
+{
+	"name": "adf-paj-demo-02",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ec6e7e80-55b3-4292-946f-c242faeff4e2",
+		"tenantId": "d57d32cc-c121-488f-b07b-dfe705680c71"
+	}
+}
